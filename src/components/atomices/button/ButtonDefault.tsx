@@ -7,7 +7,7 @@ type TPropsButtonDefault = {
 
 function ButtonDefault({
   size = "md",
-  pattern = "outline",
+  pattern = "fill",
   children,
   ...props
 }: PropsWithChildren<TPropsButtonDefault>) {
